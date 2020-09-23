@@ -1,9 +1,12 @@
 h1 {font-family: Trebuchet MS;
 font-size:22px;
 text-align:center}
+
 p {font-family: Trebuchet MS;
 font-size:14px}
+
 body { background-color: white;}
+
 h4 {color:#FFA209;
   font-size:16px;
   font-family:Trebuchet MS}
@@ -11,4 +14,28 @@ h4 {color:#FFA209;
 h3 {font-family: Trebuchet MS;
 font-size:18px;
 color:#b30000}
-p1
+
+ul {list-style-type: none;
+  position: fixed;
+   top: 0;
+   width: 100%;
+   list-style-type: none;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: Trebuchet MS;
+}
+li a:hover {
+background-color: #111;
+ }

@@ -3,7 +3,9 @@ font-size:22px;
 text-align:center}
 
 p {font-family: Trebuchet MS;
-font-size:14px}
+font-size:14px;
+text-align:left;
+margin-right: 400px}
 
 body { background-color: white;}
 

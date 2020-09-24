@@ -3,24 +3,28 @@ font-size:22px;
 text-align:center}
 h6 {font-family:Trebuchet MS;
 font-size:16px;
-text-align:center;
+text-align: center;
 color:#b30000}
 
 p {font-family: Trebuchet MS;
 font-size:14px;
-text-align:left;
-margin-right: 400px}
+text-align:center;
+margin-left: 300px;
+margin-right: 300px}
 
 body { background-color: white;}
 h5 {color: #ffcb1f;
-font-size:16px; font-family: Trebuchet MS}
+font-size:16px; font-family: Trebuchet MS;
+text-align: center;}
 h4 {color:#FFA209;
   font-size:16px;
-  font-family:Trebuchet MS}
+  font-family:Trebuchet MS;
+text-align: center;}
 
 h3 {font-family: Trebuchet MS;
 font-size:18px;
-color:#b30000}
+color:#b30000;
+text-align: center;}
 
 ul {list-style-type: none;
   position: fixed;
@@ -28,13 +32,13 @@ ul {list-style-type: none;
    width: 100%;
    list-style-type: none;
 overflow: hidden;
-background-color: #333;
+background-color: #333
 }
 
-li {
-float: left;
-}
-
+li {float: left;
+font-family: Trebuchet MS;
+font-size:14px;
+text-align: center;}
 li a {
 display: block;
 color: white;
@@ -51,5 +55,13 @@ background-color: #111;
    margin-left: auto;
    margin-right: auto;
    width: 50%;}
-figcaption {text-align: center;
-font-size: 13px}
+
+.list {list-style:disc outside none;
+       display:list-item;
+        }
+ol {text-align: center;
+font-family: Trebuchet MS;
+font-size:14px}
+
+figcaption {font-size: 13px;
+text-align: center}
